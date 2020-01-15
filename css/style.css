@@ -1,0 +1,426 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Playfair Display", serif !important;
+  font-size: 15px !important;
+  font-weight: lighter !important;
+  letter-spacing: 2px;
+}
+
+/* HEADER STARTS */
+.header-section {
+  height: 100vh;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.header-left {
+  height: 100vh;
+  background: #151515;
+  z-index: -1;
+}
+
+.vProp {
+  position: absolute;
+  margin: 9rem 2.5rem 0 2.5rem;
+  font-family: "Playfair Display", sans-serif !important;
+  font-size: 1.7rem;
+  font-weight: normal;
+  color: #d2d2d2;
+}
+
+.order-info {
+  position: absolute;
+  margin: 0 2.5rem 0 2.5rem;
+  bottom: 1.75rem;
+  font-family: "Poppins", sans-serif !important;
+  color: #d2d2d298;
+  font-size: 0.6rem;
+  font-weight: lighter;
+}
+
+.header-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  width: 100%;
+}
+
+/* MEDIA ICONS*/
+
+.media {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  margin-right: 20px;
+}
+
+.media ul {
+  list-style: none;
+}
+
+.media ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* SECTION BASIC */
+
+.section {
+  padding: 80px 40px;
+}
+
+.section p {
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-weight: 300;
+}
+
+/* PRODUCT / BANNER STARTS */
+.prod {
+  margin-top: 20px;
+}
+
+.prod:hover a {
+  text-decoration: none !important;
+}
+
+/* SLIDER STARTS*/
+.prod-list p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: grey !important;
+  font-size: 12px;
+  margin-top: 25px;
+  overflow: hidden;
+}
+
+.prod-list img {
+  transition: all 1s ease;
+  z-index: 1;
+}
+
+.prod-list a:hover img {
+  transform: scale(1.2);
+  transition: all 1s ease;
+}
+/* SLIDER ENDS*/
+
+.prod-sec {
+  width: 101%;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.prod-sec p {
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-weight: 300;
+}
+
+#link {
+  font-family: "Poppins", sans-serif;
+  color: #888888 !important;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #15151500 !important;
+  transition: all 0.2s ease-in-out;
+}
+#link:hover {
+  color: #151515 !important;
+  border-bottom: 1px solid #151515 !important;
+  transition: all 0.5s ease-in-out;
+}
+
+.some-cards .item-desc p {
+  font-family: "Poppins", sans-serif !important;
+  color: #888888 !important;
+  font-size: 0.8rem !important;
+  font-weight: normal !important;
+  margin-top: 1rem !important;
+}
+/* PRODUCT / BANNER ENDS */
+
+/* ------------------SHOP PAGE STARTS ------------------ */
+
+.whitespaces {
+  height: 6.5rem;
+}
+
+.collection {
+  padding: 2.6rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.collection #heading {
+  position: relative;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  color: #151515;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-left: 3.5rem;
+  padding-bottom: 0;
+}
+
+#heading::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid #888888;
+}
+
+.collection .section {
+  margin: auto;
+}
+/* ------------------SHOP PAGE ENDS ------------------ */
+
+/* ------------------PRODUCT PAGE STARTS ------------------ */
+
+.product-sec {
+  padding-top: 4rem;
+  height: 100vh;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.product-sec .slick-slide {
+  padding: 0;
+  margin: 0;
+}
+.product-sec img {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  transition: all 1s ease-in-out;
+}
+
+.product-sec img:hover {
+  transform: scale(1.06);
+  transition: all 1s ease-in-out;
+}
+
+.prod-left {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.prod-info {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+#prod-name {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.prod-info #prod-price {
+  padding: 1rem 0;
+}
+
+.input-options {
+  position: relative;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: light;
+  font-size: 0.65rem;
+  letter-spacing: 4px;
+}
+
+.input-options:before {
+  content: "";
+  position: absolute;
+  display: block;
+}
+
+.input-options--checkbox {
+  padding-left: 1.2rem;
+}
+
+.input-options--checkbox:before {
+  top: 2px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #151515;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked + label:before {
+  background: #151515;
+}
+
+.product-sec ::placeholder,
+input {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 0.7rem;
+  letter-spacing: 4px;
+  padding-left: 10px;
+  padding-bottom: 4px;
+}
+
+.product-sec input {
+  width: 9rem;
+}
+
+.add-btn {
+  margin: 3.3rem 0;
+}
+
+.add-btn a {
+  padding: 1.3rem 2.8rem;
+  background: #adadad;
+  font-family: "poppins", sans-serif;
+  color: #151515 !important;
+  text-transform: uppercase;
+  font-weight: light;
+  text-decoration: none;
+  letter-spacing: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+.add-btn a:hover {
+  text-decoration: none;
+  background: #151515;
+  color: #ffffff !important;
+  transition: all 0.5s ease-in-out;
+}
+
+.prod-info .prod-detail {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  padding-bottom: 2rem;
+}
+
+/* ------------------PRODUCT PAGE ENDS ------------------ */
+
+/* ------------------ABOUT PAGE STARTS ------------------ */
+
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+  background: #adadad;
+}
+
+#hero-title {
+  position: absolute;
+  top: 27.5vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Poppins", sans-serif;
+  color: inherit;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.content {
+  margin: 4rem 0;
+  width: 70% !important;
+}
+
+.content p {
+  font-family: "Poppins", sans-serif;
+  color: #666666;
+  font-size: 1rem;
+  font-weight: light;
+}
+
+#blockquote {
+  font-family: "Playfair Display";
+  color: #444444;
+  font-size: 1.7rem;
+  font-style: italic;
+  padding: 2rem 1.4rem;
+  margin: 1.4rem 0;
+}
+/* ------------------ABOUT PAGE ENDS ------------------ */
+
+/* ------------------CONTACT PAGE STARTS ------------------ */
+
+form label,
+textarea {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  color: inherit;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.form-control {
+  box-shadow: none !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: 1px solid #15151550 !important;
+  transition: border-bottom 0.8s ease-in-out;
+}
+
+form input,
+textarea {
+  border-radius: 0% !important;
+}
+
+form input:focus,
+textarea:focus {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  color: inherit;
+  text-transform: initial;
+  letter-spacing: 2px;
+  outline: none !important;
+  border-bottom: 1px solid #151515 !important;
+  transition: border-bottom 0.8s ease-in-out;
+}
+
+form .add-btn {
+  background: #adadad;
+  font-family: "poppins", sans-serif;
+  color: #151515 !important;
+  font-weight: light;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 4px;
+
+  border: none !important;
+  width: 15rem;
+  height: 3.5rem;
+  margin: 0 0 0 auto;
+  transition: all 0.2s ease-in-out;
+}
+
+form .add-btn:hover {
+  text-decoration: none;
+  background: #151515;
+  color: #ffffff !important;
+  transition: all 0.5s ease-in-out;
+}
+/* ------------------CONTACT PAGE ENDS ------------------ */
